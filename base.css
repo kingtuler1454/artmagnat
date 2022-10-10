@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    margin:0px;
+}
+.navigation{
+    background-color: white;
+    z-index: 9999;
+    position: sticky;
+    top:0;
+}
+.buttons{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+}
+.button{
+    transition: background-color;
+    font-size: 16px;
+    background-color: white;
+    color: #7f7f7f;
+    width: 15%;
+    height: 50px;
+    border: 0;
+}
+.aboutme{
+    margin-left:40%;
+    color:white;
+    background-color: black;
+}
