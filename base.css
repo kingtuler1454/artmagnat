@@ -61,4 +61,16 @@ p{
 }
 img{
     padding-top: 0%;
+    height: 10vh;
+    width: 10vh;
+}
+table{
+    border:1px double black;
+    font-size:3vh;
+    height: 100vh;
+    border-spacing:0px;
+}
+
+th ,td{ 
+    border:2px solid black;
 }
